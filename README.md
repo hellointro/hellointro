@@ -11,7 +11,8 @@ npm publish
 ## initial git
 ```
 git init
-git commit -m "first commit"
+git add . 
+git commit -m "hellointro npm published, git init" 
 git branch -M customer
 git remote add origin https://github.com/hellointro/hellointro.git
 git push -u origin customer
