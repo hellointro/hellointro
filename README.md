@@ -14,6 +14,11 @@ git init
 git add . 
 git commit -m "hellointro npm published, git init" 
 git branch -M customer
-git remote add origin https://github.com/hellointro/hellointro.git
+git remote add origin git@github.com:hellointro/hellointro.git
 git push -u origin customer
+```
+## npm update
+```
+npm version patch
+npm publish
 ```
